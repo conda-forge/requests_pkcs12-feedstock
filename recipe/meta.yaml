@@ -1,5 +1,5 @@
 {% set name = "requests_pkcs12" %}
-{% set version = "1.0.4" %}
+{% set version = "1.0.5" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: f9fe10356c5d7464bb5e06125f76d3aaba5914f2c8ccb48b3f466d0f1d21996f
+  sha256: a67dcd59aeefc14d2b9a12a4c15ce461fd75b36ef9232a1196afb5dcd97673bc
 
 build:
   noarch: python
