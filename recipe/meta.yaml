@@ -1,5 +1,5 @@
 {% set name = "requests_pkcs12" %}
-{% set version = "1.6" %}
+{% set version = "1.10" %}
 
 package:
   name: {{ name|lower }}
@@ -7,12 +7,12 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 9191e6944281437c2b464487bacd12821c4e01140d20f162d0ae665edaa02523
+  sha256: bff6b6ae27c6c100e2d1f767a5db836692b3756564ca28fa718fea226fd4204c
 
 build:
   noarch: python
   number: 0
-  script: python -m pip install --no-deps --ignore-installed .
+  script: {{ PYTHON }} -m pip install . --no-deps -vv
 
 requirements:
   build:
@@ -34,7 +34,7 @@ about:
   license: ISC
   license_family: BSD
   license_file: LICENSE
-  summary: 'This library adds PKCS#12 support to the Python requests library.'
+  summary: This library adds PKCS#12 support to the Python requests library.
 
   description: |
     Add PKCS#12 support to the requests library in a clean way, without monkey
