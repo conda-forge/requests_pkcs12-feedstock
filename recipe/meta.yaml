@@ -1,5 +1,5 @@
 {% set name = "requests_pkcs12" %}
-{% set version = "1.10" %}
+{% set version = "1.14" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: bff6b6ae27c6c100e2d1f767a5db836692b3756564ca28fa718fea226fd4204c
+  sha256: 3b3926cf91769d00c7d68ccfc120f03e5ddf5ef48bd9c4b1985dfb40853f8ac5
 
 build:
   noarch: python
@@ -20,8 +20,9 @@ requirements:
     - pip
   run:
     - python >=2.7
-    - pyopenssl >=0.14
-    - requests >=2.18.4
+    - cryptography >=3.4.7
+    - pyopenssl >=20.0.1
+    - requests >=2.26.0
 
 test:
   imports:
