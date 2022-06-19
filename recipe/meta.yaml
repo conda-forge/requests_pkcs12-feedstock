@@ -20,8 +20,9 @@ requirements:
     - pip
   run:
     - python >=2.7
-    - pyopenssl >=0.14
-    - requests >=2.18.4
+    - cryptography >=3.4.7
+    - pyopenssl >=20.0.1
+    - requests >=2.26.0
 
 test:
   imports:
