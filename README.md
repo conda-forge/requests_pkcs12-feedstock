@@ -1,11 +1,11 @@
-About requests_pkcs12
-=====================
+About requests_pkcs12-feedstock
+===============================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/requests_pkcs12-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/m-click/requests_pkcs12
 
 Package license: ISC
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/requests_pkcs12-feedstock/blob/main/LICENSE.txt)
 
 Summary: This library adds PKCS#12 support to the Python requests library.
 
