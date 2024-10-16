@@ -1,19 +1,13 @@
-About requests_pkcs12
-=====================
+About requests_pkcs12-feedstock
+===============================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/requests_pkcs12-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/m-click/requests_pkcs12
 
 Package license: ISC
 
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/requests_pkcs12-feedstock/blob/main/LICENSE.txt)
-
-Summary: This library adds PKCS#12 support to the Python requests library.
-
-Development: https://github.com/m-click/requests_pkcs12
-
-Add PKCS#12 support to the requests library in a clean way, without monkey
-patching or temporary files
-
+Summary: Add PKCS Add PKCS#12 support to the requests library in a clean way, without monkey patching or temporary files
 
 Current build status
 ====================
@@ -101,7 +95,7 @@ available continuous integration services. Thanks to the awesome service provide
 [CircleCI](https://circleci.com/), [AppVeyor](https://www.appveyor.com/),
 [Drone](https://cloud.drone.io/welcome), and [TravisCI](https://travis-ci.com/)
 it is possible to build and upload installable packages to the
-[conda-forge](https://anaconda.org/conda-forge) [Anaconda-Cloud](https://anaconda.org/)
+[conda-forge](https://anaconda.org/conda-forge) [anaconda.org](https://anaconda.org/)
 channel for Linux, Windows and OSX respectively.
 
 To manage the continuous integration and simplify feedstock maintenance
@@ -150,4 +144,5 @@ Feedstock Maintainers
 =====================
 
 * [@sodre](https://github.com/sodre/)
+* [@synapticarbors](https://github.com/synapticarbors/)
 
