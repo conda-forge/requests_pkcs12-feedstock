@@ -1,44 +1,44 @@
 {% set name = "requests_pkcs12" %}
-{% set version = "1.14" %}
+{% set version = "1.25" %}
 
 package:
   name: {{ name|lower }}
   version: {{ version }}
 
 source:
-  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 3b3926cf91769d00c7d68ccfc120f03e5ddf5ef48bd9c4b1985dfb40853f8ac5
+  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/requests_pkcs12-{{ version }}.tar.gz
+  sha256: 39d64144d9443c29fd7e9d4c33f6bcb8cda5ceedcb953030d6ea847f1889b410
 
 build:
   noarch: python
+  script: {{ PYTHON }} -m pip install . -vv --no-deps --no-build-isolation
   number: 0
-  script: {{ PYTHON }} -m pip install . --no-deps -vv
 
 requirements:
   host:
-    - python >=2.7
+    - python >=3.7
     - pip
+    - setuptools
   run:
-    - python >=2.7
-    - cryptography >=3.4.7
-    - pyopenssl >=20.0.1
+    - python >=3.7
+    - cryptography >=42.0.0
     - requests >=2.26.0
 
 test:
   imports:
     - requests_pkcs12
+  commands:
+    - pip check
+  requires:
+    - pip
 
 about:
   home: https://github.com/m-click/requests_pkcs12
+  summary: Add PKCS Add PKCS#12 support to the requests library in a clean way, without monkey patching or temporary files
   license: ISC
   license_file: LICENSE
-  summary: This library adds PKCS#12 support to the Python requests library.
-
-  description: |
-    Add PKCS#12 support to the requests library in a clean way, without monkey
-    patching or temporary files
-  dev_url: https://github.com/m-click/requests_pkcs12
 
 extra:
   recipe-maintainers:
     - sodre
+    - synapticarbors
