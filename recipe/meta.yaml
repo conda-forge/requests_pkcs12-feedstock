@@ -34,11 +34,9 @@ test:
 
 about:
   home: https://github.com/m-click/requests_pkcs12
-  summary: Add PKCS
- # 12 support to the requests library in a clean way, without monkey patching or temporary files
-  license: MIT
- # 12 support to the requests library in a clean way, without monkey patching or temporary files
-  license_file: LICENSE  # 12 support to the requests library in a clean way, without monkey patching or temporary files
+  summary: Add PKCS Add PKCS#12 support to the requests library in a clean way, without monkey patching or temporary files
+  license: ISC
+  license_file: LICENSE
 
 extra:
   recipe-maintainers:
