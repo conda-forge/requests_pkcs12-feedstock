@@ -27,7 +27,7 @@ Current release info
 
 | Name | Downloads | Version | Platforms |
 | --- | --- | --- | --- |
-| [![Conda Recipe](https://img.shields.io/badge/recipe-requests_pkcs12-green.svg)](https://anaconda.org/conda-forge/requests_pkcs12) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/requests_pkcs12.svg)](https://anaconda.org/conda-forge/requests_pkcs12) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/requests_pkcs12.svg)](https://anaconda.org/conda-forge/requests_pkcs12) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/requests_pkcs12.svg)](https://anaconda.org/conda-forge/requests_pkcs12) |
+| [![Conda Recipe](https://img.shields.io/badge/recipe-requests__pkcs12-green.svg)](https://anaconda.org/conda-forge/requests_pkcs12) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/requests_pkcs12.svg)](https://anaconda.org/conda-forge/requests_pkcs12) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/requests_pkcs12.svg)](https://anaconda.org/conda-forge/requests_pkcs12) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/requests_pkcs12.svg)](https://anaconda.org/conda-forge/requests_pkcs12) |
 
 Installing requests_pkcs12
 ==========================
