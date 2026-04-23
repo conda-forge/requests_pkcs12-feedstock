@@ -2,7 +2,7 @@ schema_version: 1
 
 context:
   name: requests_pkcs12
-  version: 1.26
+  version: "1.27"
 
 package:
   name: ${{ name|lower }}
@@ -10,7 +10,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/${{ name[0] }}/${{ name }}/requests_pkcs12-${{ version }}.tar.gz
-  sha256: efb06fa33c804ba4dd98ffd193282a0620fccf96d6a904effe1a6b0961a2f53e
+  sha256: 258b320bac8773b5c310a92382e3cb3b1fece1d5cc4fd4a6f93a70b009154ea5
 
 build:
   number: 0
